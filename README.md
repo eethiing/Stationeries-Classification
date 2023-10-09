@@ -11,15 +11,16 @@ The proposed architecture uses 3 convolutional layers, 3 pooling layers, 1 flatt
 
 ## Comparison of Experiment Setup
 ----------------------------------------------------------------------------------------------------------------------
-A) Training : Validation : TEesting Split Ratio
+A) Training : Validation : Testing Split Ratio
 
-For Model A, the training set was 70% of the whole dataset, Model B 80% and Model C is 70% with addition of 3500 images that was produced by augmenting the data. The augmentation done here was flipping, random brightness and contrast, and rotating. Based on the results below, Model B's ratio and data will be used throughout the experiment project. 
-MODEL | NUMBER OF DATA IN TRAINING SET | VALIDATION LOSS | VALIDATION ACCURACY | TESTING LOSS |	TESTING ACCURACY |
------------------------------------------------------------------------------------------------------------------|
-A	    | 3500	                         |     0.6970      |        0.8070	     |    0.6728	  |     0.8340       |
-B	    | 4000	                         |     0.5490      |        0.8480	     |    0.5385	  |     0.8280       |
-C	    | 7000	                         |     0.7466	     |        0.8230	     |    0.7725	  |     0.8180       |
-----------------------------------------------------------------------------------------------------------------------
+For Model A, the training set was 70% of the whole dataset, Model B 80% and Model C is 70% with addition of 3500 images that was produced by augmenting the data. The augmentation done here was flipping, random brightness and contrast, and rotating. Based on the results below, Model B's ratio and data will be used throughout the experiment project.
+
+| MODEL   | NUMBER OF DATA IN TRAINING SET | VALIDATION LOSS | VALIDATION ACCURACY | TESTING LOSS | TESTING ACCURACY |
+|--------------------------------------------------------------------------------------------------------------------|
+| A	    | 3500	                         |     0.6970      |        0.8070	     |    0.6728	  |     0.8340       |
+| B	    | 4000	                         |     0.5490      |        0.8480	     |    0.5385	  |     0.8280       |
+| C	    | 7000	                         |     0.7466	 |        0.8230	     |    0.7725	  |     0.8180       |
+|--------------------------------------------------------------------------------------------------------------------|
 
 B) CNN hyperparameter/Layer
 
