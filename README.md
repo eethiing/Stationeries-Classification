@@ -1,4 +1,4 @@
-![image](https://github.com/eethiing/Stationeries-Classification/assets/85276977/5d4437cd-1b4d-4224-b336-7dcc86aa61c0)# Stationeries-Classification-using-CNN
+# Stationeries-Classification-using-CNN
 
 ## Description 
 ----------------------------------------------------------------------------------------------------------------------
@@ -36,6 +36,12 @@ C     |	ADDED AN EXTRA LAYER OF    |                 |                      |   
       | CONVOLUTIONAL AND POOLING  |     0.5490      |       0.8480	        |    0.5385	   |    	0.8280      |
       | LAYER WITH DROPOUT OF      |                 |                      |              |                  |
 --------------------------------------------------------------------------------------------------------------|
+
+## Results
+----------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/eethiing/Stationeries-Classification/assets/85276977/9d9ed63c-4924-4c52-bca2-6c731f037e58)
+
+![image](https://github.com/eethiing/Stationeries-Classification/assets/85276977/5d4437cd-1b4d-4224-b336-7dcc86aa61c0)
 
 
 
